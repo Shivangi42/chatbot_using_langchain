@@ -16,7 +16,6 @@ The notebooks cover concepts such as connecting to LLMs, designing prompts, gene
 - LangChain Community
 - Google Gemini
 - Groq
-- Ollama
 - Jupyter Notebook
 - Python Dotenv
 
@@ -38,11 +37,11 @@ The notebooks cover concepts such as connecting to LLMs, designing prompts, gene
 chatbot_using_langchain/
 │
 ├── chatbots.ipynb
-├── gemini/
-│   └── Getting_started.ipynb
-├── ollama/
-│   └── app.py
 ├── .env
+├──Vectorstore_and_retriever
+|  ├───Coversional Chatbot
+|  └── conversion_q&a
+|  ├──vector_retriever                                    
 ├── .gitignore
 ├── requirements.txt
 └── README.md
@@ -102,7 +101,7 @@ For locally hosted models, install Ollama and download the model required by you
 
 ## 🎯 Purpose
 
-The purpose of this repository is to strengthen practical understanding of LangChain and LLM application development through experimentation, implementation, and hands-on learning.
+The purpose of this repository is to strengthen practical understanding of building chatbots using LangChain and LLM application development through experimentation, implementation, and hands-on learning.
 
 ## 👩‍💻 Author
 
